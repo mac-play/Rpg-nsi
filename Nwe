@@ -1,0 +1,62 @@
+# Classe para representar uma transação
+class Transaction:
+    def __init__(self, id, player1, player2, item, money):
+        self.id = id
+        self.player1 = player1
+        self.player2 = player2
+        self.item = item
+        self.money = money
+
+# Função para criar uma nova transação
+def create_transaction(player1, player2, item, money):
+    # Gerar um novo ID para a transação
+    transaction_id = ...
+
+    # Criar um novo objeto de transação
+    transaction = Transaction(transaction_id, player1, player2, item, money)
+
+    # Adicionar a transação ao banco de dados
+    ...
+
+    # Retornar o objeto da transação
+    return transaction
+
+# Função para negociar uma transação
+def negotiate_transaction(transaction_id, player, new_item, new_money):
+    # Buscar a transação pelo ID
+    transaction = ...
+
+    # Verificar se o jogador é um dos participantes da transação
+    if player not in [transaction.player1, transaction.player2]:
+        return False
+
+    # Atualizar os itens e o dinheiro da transação
+    transaction.item = new_item
+    transaction.money = new_money
+
+    # Salvar a transação no banco de dados
+    ...
+
+    return True
+
+# Função para aprovar uma transação
+def approve_transaction(transaction_id):
+    # Buscar a transação pelo ID
+    transaction = ...
+
+    # Definir o status da transação como aprovada
+    transaction.status = "approved"
+
+    # Salvar a transação no banco de dados
+    ...
+
+# Função para rejeitar uma transação
+def reject_transaction(transaction_id):
+    # Buscar a transação pelo ID
+    transaction = ...
+
+    # Definir o status da transação como rejeitada
+    transaction.status = "rejected"
+
+    # Salvar a transação no banco de dados
+    ...
