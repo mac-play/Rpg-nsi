@@ -1,0 +1,22 @@
+Do jogo...
+
+Layout.
+
+Escuro. Com botões grandes e quadrados na parte inferior de tela (indicando os 8 menus; ou ações (específica dos na raw do menu) na parte superior informações básicas. Como; receitas do governo; pontos de educação; pontos de saude; pontos de segurança e pontos de infraestrutura; outros dados)
+
+Dos eventos.
+
+A cada hora, um evento acontece. Baseado nos pontos do governo. (Especificados na RAW eventos)
+
+A cada dia (24h o personagem recebe seu salário do dia. Definido pelo de acordo com o decreto de salário do banqueiro(saldo debitado da cinta do governo))
+
+Oque mais?
+
+O evento que eu esqueci  eleição.
+
+Quando? Todo sábado.
+Quem pode se candidatar?  Todos! Quem vota?  NPCs.
+
+Grande evento.  Sábados as 15h tem o super debate. Uma discurso sem regras. Onde cada palavra muda o % de apoio dos candidatos em algo entre 0,2 a 1,9% por fala. Cada um teria 4 falas. Uma sobre cada tema. (saúde, educação, segurança, e infraestrutura)
+
+Isso é um evento!
